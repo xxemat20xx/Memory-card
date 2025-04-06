@@ -3,6 +3,7 @@ import Cards from './components/Cards'
 import Headers from './components/Header'
 import Modal from './components/Modal'
 import Loading from './components/Loading'
+import bgImage from './assets/dota2bg2.jpg'
 export default function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -112,7 +113,7 @@ export default function App() {
             height: 100vh;
         }
       body {
-        background-image: url('../src/assets/dota2bg2.jpg');
+        background-image: url(${bgImage});
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

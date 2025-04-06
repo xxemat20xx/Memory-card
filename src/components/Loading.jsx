@@ -1,11 +1,12 @@
 import React from 'react'
+import image from '../assets/dota2logo.png'
 
 export default function Loading() {
   return (
     <div>
         <div className="loader">
         <div className="loader-spinner">
-                <img src="../src/assets/dota2logo.png" alt="" />
+                <img src={image} alt="dota2logo" />
             </div>
             <div className="loader-text">Loading...</div>
            

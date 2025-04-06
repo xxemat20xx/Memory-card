@@ -1,12 +1,12 @@
 import React from 'react'
-
+import logoImage from '../assets/dota2logo.png'
 export default function Header(props) {
   return (
     <div className="header">
               <div className="header-content">
               <div className="logo-content">
                   <div className="image-container">
-                      <img src="../src/assets/dota2logo.png" alt="dota2logo" />
+                      <img src={logoImage} alt="dota2logo" />
                   </div>
                   <div className="header-text">
                       <span>Dota 2 Heroes</span>
