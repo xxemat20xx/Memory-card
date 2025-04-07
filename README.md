@@ -24,6 +24,6 @@ Try to click as many different heroes as possible **without repeating** any!
 [OpenDota API](https://docs.opendota.com)
 
 Massive thanks to [The Odin Project](https://www.theodinproject.com/dashboard)
-For providing an incredible curriculum and helping me learn React through real-world project-based learning.
+For providing an incredible curriculum and helping me learn React through project-based learning.
 
 
