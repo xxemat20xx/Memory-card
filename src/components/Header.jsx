@@ -79,11 +79,14 @@ export default function Header(props) {
                       flex-direction: column;
                       align-items: center;
                   }
-                      .score-content {
+                  .score-content {
                           display: flex;
                           flex-direction: column;
                           align-items: center;
                       }
+                          .score-content h2{
+                              font-size: 1rem;
+                          }
                       .logo-content {
                           flex-direction: column;
                           justify-content: center;
@@ -91,16 +94,18 @@ export default function Header(props) {
                           align-items: center;
                       }
                       .image-container {
-                          margin-bottom: 10px;
+                        width: 50px;
+                        height: 50px;
+                        margin-bottom: 10px;
                       }
                       .header-text span {
-                          font-size: 1.5rem;
+                          font-size: 1.2rem;
                       }
                       .header-text h2 {
-                          font-size: 2rem;
+                          font-size: 1.5rem;
                       }
                       .header p {
-                          font-size: 1.2rem;
+                          font-size: 1rem;
                       }
               `
               }

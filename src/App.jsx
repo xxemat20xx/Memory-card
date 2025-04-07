@@ -118,7 +118,6 @@ export default function App() {
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
-       
         color: white;
         font-family: Arial, sans-serif;
         display: flex;
@@ -143,43 +142,15 @@ export default function App() {
         gap: 20px;
         padding: 20px;
         }
-       
-        .card {
-            width: 250px;
-            height: 250px;
-            background-color: #444;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin: 10px;
-            cursor: pointer;
-            transition: transform 0.2s;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
-            border: 1px solid #fff;
-        }
-        .card:hover {
-            transform: scale(1.05);
-        }
+
           @media (max-width: 768px) {
             main {
                 grid-template-columns: repeat(2, 1fr);
             }
-            .card {
-                width: 150px;
-                height: 150px;
-            }
-
-            .card img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                border-radius: 10px;
-            }
-            .card h3 {
-                font-size: 16px;
-            }
+                #root{
+                height: auto;
+                }
+         
         `
         }
     </style>

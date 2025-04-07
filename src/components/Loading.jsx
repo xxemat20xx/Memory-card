@@ -48,6 +48,24 @@ export default function Loading() {
                     0% { transform: rotate(0deg); }
                     100% { transform: rotate(360deg); }
                 }
+                   @media (max-width: 768px) {
+                .modal-content h2 {
+                    font-size: 3rem;
+                }
+                .loader-text {
+                    font-size: 2rem;
+                    margin-left: 20px;
+                    font-family: "Boldonse", system-ui;
+                }
+                .loader-spinner{
+                    width: 50px;
+                    height: 50px;
+                    font-size: 1rem;
+                }
+                .loader-spinner img {
+                    width: 100%;
+                    height: 100%;
+                }
                 `
             }
         </style>
